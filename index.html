@@ -640,7 +640,7 @@ Author URL: http://w3layouts.com
 
 $.ajax({
     type:"GET", 
-    url: "/image-names.json", 
+    url: "image-names.json", 
     success: function(data) {
         $.each(data, (k, image) => {
             const name = image.split('/').pop();
